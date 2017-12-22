@@ -13,7 +13,6 @@ namespace LocationSvc.App_Start
     {
         public void Configuration(IAppBuilder app)
         {
-            //app.UseCors(Microsoft.Owin.Cors.CorsOptions.AllowAll);
             app.UseCors(Microsoft.Owin.Cors.CorsOptions.AllowAll);
 
             HttpConfiguration config = new HttpConfiguration();
